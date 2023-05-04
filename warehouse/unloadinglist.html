@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            }
+            body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            }
+            .wrapper{
+            position: relative;
+            max-width: 430px;
+            width: 100%;
+            background: #fff;
+            padding: 34px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(11, 54, 105, 0.2);
+            }
+        .circle {
+            
+            background: #fff;
+            border-radius: 40%;
+             border: 3px solid #000;
+             color: #000;
+             text-align: center;
+             font: 32px Arial, sans-serif;
+           }
+        
+        .second-txt {
+            position:absolute;
+            top:35%;
+            bottom:10%;
+            left: 40%;
+            text-align: center;
+            font-size:3
+            
+        }
+        .first-txt {
+            position: absolute;
+            top:-6%;
+            bottom: 20%;
+            left: 35%;
+            font-size: 20;
+            
+        }
+
+        .oval{
+
+        width: 50%;
+        height:150%;
+        background-color: rgb(182, 222, 204);
+        border-radius: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 0%;
+
+        }
+
+        xyz {
+            display : table-cell;
+            vertical-align: middle;
+        }
+
+         </style>
+    
+</head>
+<body >
+    <div class="wrapper">
+
+    
+        <center>
+            <img src="https://mybucketwarehouse.s3.ap-south-1.amazonaws.com/logo.jpg" width="70%" height="70%" class="cl1">
+        </center>
+
+            <center>
+            <h1>Unloading</h1>
+
+            </center>
+
+                
+                <h3 class="oval">
+                    
+                   
+                    <br>
+                    Truck Number
+                    <div id="truck-id"></div>
+                    <script  src="templates/js/trucknumbers.js"></script><br>
+                    </h3>
+                   
+   
+                \<center>
+            
+                            <h3 class="oval">
+                                <br><br>
+                                
+
+                                 Invoice No :<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 SKU Code:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 SKU Description:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Invoice Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Breakage Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Shortage Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Leakage Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Burst Qty:<br><input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Excess Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Chip Neck Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+                                 Others Qty:<input type="text" maxlength="4" size="10" align:"center"><br>
+
+                                </h3>
+                            </br>
+                <a href="unload3pg.html"><button class="button" >submit </button>
+                </button></a>
+                </center>
+                </div>
+
+            </body>
+
+</html>

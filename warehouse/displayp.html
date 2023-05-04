@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            }
+            body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            }
+            .wrapper{
+            position: relative;
+            max-width: 430px;
+            width: 100%;
+            background: #fff;
+            padding: 34px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(11, 54, 105, 0.2);
+            }
+            .btn{
+                background-color:rgb(22, 79, 92);
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;;
+            }
+        .circle {
+            
+            background: #fff;
+            border-radius: 40%;
+             border: 3px solid #000;
+             color: #000;
+             text-align: center;
+             font: 32px Arial, sans-serif;
+           }
+        
+        .second-txt {
+            position:absolute;
+            top:35%;
+            bottom:10%;
+            left: 40%;
+            text-align: center;
+            font-size:3;
+            
+            
+        }
+        .first-txt {
+            position: absolute;
+            top:-6%;
+            bottom: 20%;
+            left: 35%;
+            font-size: 20;
+            
+        }
+        body{
+  
+        align-items: center;
+  
+       
+        }
+
+        .oval{
+
+        width: 70%;
+        height:200%;
+        background-color: rgb(182, 222, 204);
+        border-radius: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 0%;
+
+        }
+
+        xyz {
+            display : table-cell;
+            vertical-align: middle;
+        }
+        
+
+         </style>
+    
+</head>
+<body >
+    <div class="wrapper">
+    
+        <center>
+            <img src="https://mybucketwarehouse.s3.ap-south-1.amazonaws.com/logo.jpg" width="70%" height="70%" class="cl1">
+        </center>
+        
+
+        <div class="gfg">
+            
+            <h3 class="oval">
+                
+                <b> Welcome to qZense Labs <br><br></b>
+                To continue Please proceed with clicking a picture of the Truck
+                <p id="message"></p></h3>
+               
+                
+
+                <center>
+                <br><input class="input" type="file" id="picture"><br>
+                <button   id="submitButton">Upload and Post</button>
+                </center>
+
+               
+                
+
+                <div id="root6"></div>
+                    <script  src="templates/js/trucknumberin.js"></script><br>
+                    <br>
+                   
+            
+                     
+                  </script>
+                  
+                    <center>
+
+                                <div class="form1">
+                             <a href="gatein.html"><button class="button" >Next </button>
+                              </button></a></div>
+                          </center>
+                        </div>
+
+              <script>
+                  
+              
+              let input = document.querySelector(".input");
+              let button = document.querySelector(".button");
+              
+              button.disabled = true; //setting button state to disabled
+              
+              input.addEventListener("change", stateHandle);
+              
+              function stateHandle() {
+                  if (document.querySelector(".input").value === "") {
+                      button.disabled = true; //button remains disabled
+                  } else {
+                      button.disabled = false; //button is enabled
+                  }
+              }
+              </script>
+              </div>
+             
+            </body>
+
+</html>
+
+
+
+
+

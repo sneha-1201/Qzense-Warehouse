@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+    <title>qZense Labs</title>
+    <style>
+      .btn{
+  
+  background-color:rgb(22, 79, 92);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;;
+}
+    </style>
+  </head>
+  <body>
+
+  <div class="wrapper">
+    <center>
+    
+    <main class="form-signin">
+      <form onsubmit="return login()">
+        
+       
+        <h1 class="h3 mb-3 fw-normal"></h1><center>
+          <img src="https://mybucketwarehouse.s3.ap-south-1.amazonaws.com/logo.jpg" width="65%" height="65%" class="cl1">
+      </center>
+
+        <div class="input-box">
+          <input type="number"  id="otp" placeholder="Enter OTP">
+         
+        </div>
+       
+
+        <button class="btn" type="submit">Submit</button>
+        
+        <p class="mt-5 mb-3 text-muted"></p>
+      </form>
+    </center>
+    </main>
+
+    <script src="templates/js/otp.mjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
